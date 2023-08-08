@@ -1,12 +1,10 @@
-
-
 * {
-   margin: 0;
+  margin: 0;
   padding: 0;
   border: 0;
   box-sizing: border-box;
   color: #261200;
-;
+  ;
 }
 
 body,
@@ -24,9 +22,11 @@ body {
   background-image: url(imgs/nordwood-themes-R53t-Tg6J4c-unsplash.svg);
   overflow-x: hidden;
 }
+
 header {
   padding: 20px;
 }
+
 .section-1 {
   background-image: url(imgs/Rectangle.svg);
   background-repeat: no-repeat;
@@ -39,14 +39,17 @@ header {
   align-items: center;
   padding: 50px 0 70px;
 }
+
 .title {
   font-family: "Lamarkie";
   font-size: 24px;
   line-height: 52px;
 }
+
 .title2 {
   margin: 30px 0 15px;
 }
+
 .invitation {
   width: 100%;
   position: absolute;
@@ -66,12 +69,15 @@ header {
   font-size: 12px;
   color: #261200;
 }
+
 .VAImg {
   margin-top: 118px;
 }
+
 .VAImg img {
   width: 100%;
 }
+
 .VAImg p {
   font-family: "Roboto", sans-serif;
   width: 249px;
@@ -82,25 +88,38 @@ header {
   flex-wrap: wrap;
   margin-top: -30px;
 }
+
 .image {
   width: 50%;
   max-width: 239px;
 }
+
 .image2 {
+  width: 50%;
+  height: 239px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #fff6e7;
 }
-.image1 img {
-  width: 100%;
-  height: 100%;
+
+.image1 {
+  width: 50%;
+  height: 239px;
+  background-image: url('/imgs/vava.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.image4 img {
-  width: 100%;
-  height: 100%;
+
+.image4 {
+  width: 50%;
+  height: 239px;
+  background-image: url('/imgs/va 3.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
 .image2 h3 {
   font-family: "Lamarkie";
   font-size: 8px;
@@ -108,6 +127,7 @@ header {
   line-height: 23px;
   margin-bottom: 30px;
 }
+
 .image3 {
   background-color: #4b3929;
   display: flex;
@@ -115,6 +135,7 @@ header {
   align-items: center;
   justify-content: center;
 }
+
 .section-3-title {
   max-width: 75%;
   margin: 0 auto;
@@ -125,22 +146,28 @@ header {
   margin-top: 30px;
   text-align: center;
 }
+
 .line {
   max-width: 100%;
   height: 1px;
   background-color: #261200;
 }
+
 .schedule {
   font-family: "Roboto";
-  padding: 30px;
+  padding: 30px 0px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  max-width: 75%;
+  margin: 0 auto;
 }
+
 .hour {
   font-size: 22px;
   margin-top: -2px;
 }
+
 .dash {
   width: 15px;
   height: 1px;
@@ -152,13 +179,16 @@ header {
   display: flex;
   gap: 10px;
 }
+
 .event {
   font-size: 15px;
 }
+
 .event span {
   font-size: 12px;
   color: #505050;
 }
+
 .inputs {
   padding: 30px;
   font-family: "Roboto";
@@ -166,6 +196,7 @@ header {
   flex-direction: column;
   gap: 20px;
 }
+
 .input p {
   margin: 8px 0px;
   font-size: 12px;
@@ -180,6 +211,7 @@ header {
   border-radius: 5px;
   padding: 5px;
 }
+
 .date {
   font-size: 22px;
   text-align: center;
@@ -193,15 +225,17 @@ header {
     flex-direction: column;
     align-items: center;
   }
+
   .schedule {
     align-items: center;
   }
+
   .inputs {
     align-items: center;
   }
 }
 
-.sent_btn{
+.sent_btn {
   color: #261200;
   background: transparent;
   margin-top: 17px;
