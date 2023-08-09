@@ -76,6 +76,7 @@ header {
 
 .VAImg img {
   width: 100%;
+  max-height: 480px;
 }
 
 .VAImg p {
