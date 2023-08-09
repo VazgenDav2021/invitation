@@ -85,14 +85,19 @@ header {
 }
 
 .section-2 {
+  width: 89%;
+  height: max-content;
+  margin: 0 auto;
   display: flex;
+  align-items: center;
+  padding: 50px 0 70px;
   flex-wrap: wrap;
   margin-top: -30px;
 }
 
 .image {
   width: 50%;
-  max-width: 239px;
+  height: 239px;
 }
 
 .image2 {
