@@ -2,7 +2,6 @@ const express = require("express");
 const path = require("path");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
-const exphbs = require("express-handlebars");
 const homeRoutes = require("./routes/home");
 const PORT = process.env.PORT || 3000;
 
@@ -14,17 +13,11 @@ mongoose.connection.on("disconnected", () => {
 });
 
 
+
 const app = express();
-const hbs = exphbs.create({
-  defaultLayout: "main",
-  extname: "hbs",
-  helpers: require("./utils/hbs-helpers"),
-});
 
-
-app.engine("hbs", hbs.engine);
-app.set("view engine", "hbs");
-app.set("views", "views");
+app.set('views', __dirname + '/views');
+app.engine('html', require('ejs').renderFile);
 
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded({ extended: true }));
