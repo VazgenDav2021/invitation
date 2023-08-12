@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  background-image: url(imgs/nordwood-themes-R53t-Tg6J4c-unsplash.svg);
+  background-image: url(imgs/theme.svg);
   overflow-x: hidden;
 }
 
@@ -53,7 +53,7 @@ header {
 .invitation {
   width: 100%;
   position: absolute;
-  top: 221px;
+  top: 171px;
   border-top: 1px solid #261200;
   border-bottom: 1px solid #261200;
   display: flex;
@@ -195,11 +195,13 @@ header {
 }
 
 .inputs {
-  padding: 30px;
+  padding-bottom: 30px;
   font-family: "Roboto";
   display: flex;
   flex-direction: column;
   gap: 20px;
+  max-width: 75%;
+  margin: 0 auto;
 }
 
 .input p {
